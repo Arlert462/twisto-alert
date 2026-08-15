@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/twisto-alert/',
   optimizeDeps: {
     exclude: ['maplibre-gl'],
   },
